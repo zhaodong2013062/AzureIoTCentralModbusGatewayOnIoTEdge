@@ -1,0 +1,5 @@
+setuptools
+retrying
+paho-mqtt
+pymodbus
+iotc
