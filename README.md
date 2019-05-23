@@ -33,7 +33,7 @@ For windows versions of these guides:
 
 2. Physically connect the IoT Edge device to the desired Modbus devices.
 
-3. Configure the **IoT Central parameters and **Modbus parameters** sections of `modules/ModbusGatewayPythonModule/config.py`. 
+3. Configure the **IoT Central parameters** and **Modbus parameters** sections of `modules/ModbusGatewayPythonModule/config.py`. 
 
 3. Create and push a config file to the master device. Details of the config file structure can be found [here](https://github.com/zhaodong2013062/Azure_IoT_Central_Modbus_Gateway#config-file-structure-and-explanation).
 
