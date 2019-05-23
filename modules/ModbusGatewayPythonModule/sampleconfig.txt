@@ -1,0 +1,29 @@
+{ 
+"modelId":  "130772c7-97dd-4a76-bbdb-9209888293f6/1.0.0",  
+"updateInterval": 1,
+"activeRegisters": 
+[ 
+{ 
+"registerName": "temp", 
+"address": 0, 
+"type": "ir" 
+}, 
+{ 
+"registerName": "humidity", 
+"address": 1, 
+"type": "ir" 
+},
+{
+"registerName": "voltage", 
+"address": 0, 
+"type": "hr" 
+}
+],  
+"slaves":  
+[ 
+{   
+"deviceId": "mxchipmodbusslave", 
+"slaveId": "0"
+}
+] 
+}

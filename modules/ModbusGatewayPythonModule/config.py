@@ -11,13 +11,13 @@ GLOBAL_LOG_LEVEL = logging.INFO
 IoT Central parameters
 """
 # IoT Central App Scope ID
-CENTRAL_SCOPE_ID = '0ne0004E04A'
+CENTRAL_SCOPE_ID = '<SCOPEID>'
 # IoT Central App Key
-CENTRAL_APP_KEY = '9Vd33uKdJLyf2IDk1AW6ckBD5alM9osQeJ8+k2F4AqmzJGITmM3pDy57sfFYuzMTlWQVefBjXiFiTwuS8D3XXA=='
+CENTRAL_APP_KEY = '<APPKEY>'
 # Master Device ModelId
-MASTER_MODEL_ID = 'd3grte/1.1.0'
+MASTER_MODEL_ID = '<MODELID>'
 # Master DeviceId
-MASTER_DEVICE_ID = 'modbusmasterdockertest'
+MASTER_DEVICE_ID = 'modbusmastertests'
 
 """
 Modbus parameters
@@ -32,8 +32,7 @@ BAUD_RATE = 4800
 # Modbus timeout in ms
 MODBUS_CLIENT_TIMEOUT = 1
 # Modbus serial port for Master
-#SERIAL_PORT = '/dev/ttyAP1'
-SERIAL_PORT = 'COM5'
+SERIAL_PORT = '<SERIALPORT>'
 # ms to wait on modbus retries
 MODBUS_RETRY_WAIT = 20
 # Max number of retry attempts
